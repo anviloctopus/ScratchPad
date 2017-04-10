@@ -1,0 +1,21 @@
+package com.theironyard.novauc;
+
+//We have two monkeys, a and b, and the parameters aSmile and bSmile indicate if each is smiling.
+        //We are in trouble if they are both smiling or if neither of them is smiling. Return true if we are in trouble.
+
+/**
+ * Created by ANVIL_OCTOPUS on 4/9/17.
+ */
+public class MonkeyTrouble {
+
+    public boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
+        if (aSmile && bSmile) {
+            return true;
+        }
+        if (!aSmile && !bSmile) {
+            return true;
+        }
+        return false;
+
+    }
+}
